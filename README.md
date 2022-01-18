@@ -73,10 +73,13 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ![Initial View](images/init_view.png)
 
->June Temperature
+>One Filter
 
-![June Temperature](resources/junetemp.png)
+![One Filter](images/one_filter_funcs.png)
 
+>Multi Filters
+
+![Multi Filters](images/multi_filter_funcs.png)
 ## Summary
 
 ## Appendix
