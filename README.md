@@ -69,17 +69,37 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+When a user first visit the site, the user will see the top fold of the site as seen in Initial View.
 >Initial View
 
 ![Initial View](images/init_view.png)
+
+Scroll down to see all the information of UFOs sightings. On the left panel, user will see the filtering text fields. To filter the data, user can enter only one of the filter field and press enter.
+
+Here is an example of one filter input with shape as "triangle".
 
 >One Filter
 
 ![One Filter](images/one_filter_funcs.png)
 
+Here is an example of multiple filters input with date as "1/1/2010" and state as "ca".
 >Multi Filters
 
 ![Multi Filters](images/multi_filter_funcs.png)
+
 ## Summary
 
+### Drawback
+
+One major drawback of this site is that the filter is case sensitive. For example, if we enter state as "CA", it will return nothing in our results.
+
+### Recommendations
+
+1. To work on removing case sensitive issue as stated in drawback above so that user input "CA" in state will also returns results for "ca".
+2. To include additional filters for Durations and Comments so users can further filter on the other 2 parameters.
+3. To expand and include dataset for other years
+
+
 ## Appendix
+
+* Javascript Objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
